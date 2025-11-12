@@ -163,3 +163,7 @@ console.log("==========")
 
 //Exercise 12
 
+function numArgs(Args){
+    return arguments.length
+}
+console.log("Exercise 12 Result: ", numArgs(1, 2, 3, 4))
