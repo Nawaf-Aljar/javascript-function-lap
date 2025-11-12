@@ -88,7 +88,7 @@ console.log("==========")
 function calculateTip(billAmount,tipPercentage){
     return billAmount * tipPercentage / 100
 }
-console.log("Ecercise 7 Result: ", calculateTip(50,20))
+console.log("Exercise 7 Result: ", calculateTip(50,20))
 
 console.log("==========")
 
@@ -153,5 +153,13 @@ console.log("==========")
 //Exercise 11
 
 function createUsername(firstName,lastName,chrCount){
+    chrCount = firstName + lastName
+    return firstName.slice(0,3)+lastName.slice(0,3)+chrCount.length
 
 }
+console.log("Exercise 11 Result: ", createUsername("Samantha", "Green"))
+
+console.log("==========")
+
+//Exercise 12
+
