@@ -43,9 +43,9 @@ console.log("==========")
 //Exercise 4
 
 function generateEmail (myname,domain) {
-    return myname + domain
+    return myname + "@" + domain
 }
-console.log("Exercise 4 Result: ", generateEmail("Nawaf", "@gmail.com"))
+console.log("Exercise 4 Result: ", generateEmail("Nawaf", "gmail.com"))
 
 console.log("==========")
 
